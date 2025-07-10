@@ -252,7 +252,7 @@ dbt run
 
 
 
-## Visualization - Looker Studio ##
+## Visualization-Looker-Studio ##
 
 
 For Specific Instructions on 
