@@ -12,7 +12,7 @@
 - [Transform](#transform)
 - [Data Warehouse](#data-warehouse)
 - [Data Base Transformation](#data-base-transformation)
-- [Visualization](#visualization)
+- [Visualization - Looker Studio ](#visualization)
 
 ## Overview ##
 
@@ -252,13 +252,18 @@ dbt run
 
 
 
-## Visualization ##
+## Visualization - Looker Studio ##
 
 
-Basic Outline: https://cloud.google.com/looker/docs/studio/connect-to-google-bigquery#:~:text=Looker%20Studio%20can%20connect%20to,that%20have%20been%20set%20up.
+For Specific Instructions on 
 
-For our visualization tool, we are going to be using Looker (different than Looker Studio). This is because 1) it is a low-cost tool, 2) it is a GCP product that integrates easily, and 3) it is very basic and simple.
+For our visualization tool, we are going to be using Looker Studio.
 
-First, we must create an instance. Enable Looker API (you will be prompted) and then create the instance. You will be prompted for an instance name to create as well as an Oauth Client ID and Passkey.
+This is because 1) it is free, and 2) it is a GCP product that integrates easily.
+
+Go to https://lookerstudio.google.com, click the "use it for free" button. Sign in with the same UN and PW that you use for GCP. 
+
+After logging in, click the "create" button followed by "report". You will be prompted to fill in some basic information about your coutry and company.
+
 
 
