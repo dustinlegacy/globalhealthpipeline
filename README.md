@@ -12,7 +12,7 @@
 - [Transform](#transform)
 - [Data Warehouse](#data-warehouse)
 - [Data Base Transformation](#data-base-transformation)
-- [Visualization - Looker Studio](#visualization - looker studio)
+- [Visualization - Looker Studio](#visualization-looker-studio)
 
 ## Overview ##
 
