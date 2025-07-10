@@ -255,7 +255,7 @@ dbt run
 ## Visualization: Looker-Studio ##
 
 
-For Specific Instructions on 
+For Specific Instructions on [dbt folder](dbt/)
 
 For our visualization tool, we are going to be using Looker Studio.
 
