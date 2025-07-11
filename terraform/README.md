@@ -1,5 +1,7 @@
+## Terraform Setup ## 
 
-https://app.terraform.io
+
+Here is the link to the Terraform site: https://app.terraform.io
 
 After logging into Terraform Cloud and making an account/profiile, we need to download Hashicorp and Terraform on our local machine. We are using MacOS.
 
