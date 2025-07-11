@@ -18,3 +18,5 @@ terraform -help
 In the main github repo, make a sub-directory for you terraform project. For our project, this can be found here: [terraform](terraform)
 
 Next you have to connect GCP with Terrafrom. We followed the quick start guide here: https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/getting_started
+
+IMPORTANT: A key aspect of this is creating a GCP service account with correct permissions. We selected Storage Admin. That service account then needs to export the creds as a .json file and then be saved into Terraform Cloud as an envrionment variable.
