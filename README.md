@@ -109,7 +109,9 @@ IMPORTANT: Make sure you donwnload the serviceaccount.json file and put it somet
 
 We are using Terraform Cloud
 
-For specific setup instructions click [here](infrastructure/). https://app.terraform.io
+For specific setup instructions click [here](terraform/). 
+
+https://app.terraform.io
 
 After logging into Terraform Cloud and making an account/profiile, we need to download Hashicorp and Terraform on our local machine. We are using MacOS.
 
