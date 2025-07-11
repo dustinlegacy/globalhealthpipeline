@@ -111,9 +111,6 @@ We are using Terraform Cloud
 
 For specific setup instructions click [here](terraform/). 
 
-
-IMPORTANT: A key aspect of this is creating a service account with correct permissions. We selected Storage Admin. That service account then needs to export the creds as a .json file and then be saved into Terraform Cloud as an envrionment variable.
-
 Terraform stores files as .tf files.
 
 For the sake of organization, I separated my .tf scripts into differnt sections based on the differnt GCP objects that I am trying to create.
