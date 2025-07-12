@@ -187,7 +187,7 @@ This setup allows us to schedule, test, and run jobs directly on a GCP VM with m
 
 ## DAGs ##
 
-Here is the link the Folder: [data pull](DAGS)
+To see the specific folder with the scripts click: [here](DAGs)
 
 ## Transform ##
 
