@@ -185,6 +185,9 @@ Note: The external IP for the VM is currently ephemeral. If needed, it can be co
 This setup allows us to schedule, test, and run jobs directly on a GCP VM with minimal resource requirements. Docker provides containerized isolation and reproducibility, while Airflow handles job orchestration, task retries, scheduling, and logging. Together, they form the operational backbone of this pipeline.
 
 
+## DAGs ##
+
+
 
 ## Transform ##
 
