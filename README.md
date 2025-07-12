@@ -79,9 +79,15 @@ Using the link above, we are able to call a json response from the REST API and 
 
 ## Storage ##
 
-We will be using the Google Cloud Platform (GCP) and specifically buckets to store our raw data in a cloud storage location.
+We will be using the Google Cloud Platform (GCP) for cloud storage due to our familiarity with the platform.
 
 For setup instructions click [here](storage/)
+
+We will first use GCP buckets to store our raw data in a cloud storage location. The bucket will be called "fda_enforcement_data".
+
+All initial data will be put into this folder in a sub_folder titled "raw_data". For the AI/ML process that we will be performing later, data will be taken from this bucket into
+
+a data warehouse using Google Bigquerey (see "Data Warehouse" section below for this step).
 
 
 ## Infrastructure ##
