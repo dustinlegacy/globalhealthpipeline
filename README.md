@@ -81,6 +81,8 @@ Using the link above, we are able to call a json response from the REST API and 
 
 We will be using the Google Cloud Platform (GCP) and specifically buckets to store our raw data in a cloud storage location.
 
+For setup instructions click [here](storage/)
+
 GCP has a free tier where you can get $300 of free credit for 90 days.
 
 After getting access into the GCP console, we are going to create a new project. Ours will be called "globalhealthdatascience".
