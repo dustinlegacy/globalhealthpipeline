@@ -210,15 +210,6 @@ Then we are going to make our first table. We are going to call this "gdp_table"
 
 Now that we have our data in Google Big Querey, we will need to do some basic table joins for the sake of our projects. For this, we will use DBT Cloud. DBT Cloud has a free forever policy for developers if you are using only one seat. This is perfectly accetable for us.
 
-First create an account and login to DBT Cloud. 
-
-After the account has been created, you go to the "connections" tab to sync Big Querey to DBT Cloud. You will need your Google Cloud Project ID. 
-
-GOOD NEWS: Since we have already set up a GCP service account and given it full access, we can upload the GCP json service account file 
-
-Once that is done, configure your environment, and connect the DBT cloud interface to your git hub repo. After this is done, you will be able to deploy dbt directly in the repo.
-
-Make sure your connection is tested before deployment.
 
 Important: DBT Cloud will automatically put all of its various folder and compenents in the main base folder of your repo. Using the DBT CLOUD IDE, I created a new folder titled "DBT" and put the sub folders in there to clean up the repo. You can see this here: [dbt folder](dbt/)
 
