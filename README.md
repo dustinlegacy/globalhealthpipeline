@@ -9,6 +9,7 @@
 - [Storage](#storage)
 - [Infrastructure](#infrastructure)
 - [Orchestration (Docker + Airflow)](#orchestration-docker--airflow)
+- [Scritps - DAGs](#DAGs)
 - [Transform](#transform)
 - [Data Warehouse](#data-warehouse)
 - [Data Base Transformation](#data-base-transformation)
