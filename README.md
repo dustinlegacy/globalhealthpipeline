@@ -78,21 +78,15 @@ Using the link above, we are able to call a json response from the REST API and 
 
 ## Storage ##
 
-In order to store the data that we are creating. It is important to note here that we are trying to avoid using anything on a personal computer, as that is not a realistic vision for the deployment of a commerical data pipeline. As such, we will need some cloud provider. Due to our familiarity with the product, we are going to use GCP. 
+We will be using the Google Cloud Platform (GCP) and specifically buckets to store our raw data in a cloud storage location.
 
-IMPORTANT: GCP does have a free tier where you can get $300 of free credit for 90 days. That being said, when you are setting up the profile, you will be required to enter in a credit card or payment method before you get started. For the sake of this project, I am going to purchase a pre-paid VISA card with $100 preloaded onto said card. As GCP bills monthly, I want this to be seperate from my actual bank account.
-
-EDIT: Turns out that Prepaid Cards are not allowed for GCP. I guess I will just use this to pay for my gas lol
-
-EDIT 2: It did not work at the pump. I guess I will use it to pay for chicken
-
-EDIT 3: Turns out there is no zip code attached to the card. As such, I cannot add it online.
-
-That being said, Google claims that they will not charge the card until conset is given to begin billing. We are just going to add my basic card. Wish me luck.
+GCP has a free tier where you can get $300 of free credit for 90 days.
 
 After getting access into the GCP console, we are going to create a new project. Ours will be called "globalhealthdatascience".
 
-The next step is downloading the Google Cloud Console on your local machine. The setup guide can be found here: https://cloud.google.com/sdk/docs/install
+The next step is downloading the Google Cloud Console on your local machine. 
+
+The setup guide can be found here: https://cloud.google.com/sdk/docs/install
 
 After downloading, run the command below in from your project terminal to login.
 This is also a good way to determine if you downloaded GCP correctly.
