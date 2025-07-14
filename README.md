@@ -185,13 +185,11 @@ For the sake of column name consistency, we are going to create a transform fold
 
 For setup instructions click [here](datawarehouse/)
 
-Basic Outline: https://cloud.google.com/bigquery?hl=en
+We are going to be useing Google BigQuery for our datawarehouse. This will help us stay within the GCP ecosystem and minimize costs with our starter plan. 
 
-We are going to be useing Google BigQuery for our datawarehouse as opposed to Snowflake (our standard too). This will help us stay within the GCP ecosystem and minimize costs with our starter plan. 
+It should be noted that we are setting this up in Terraform.
 
-It should be noted that we are setting this up in Terraform. First we must setup a dataset to put differnt tables inside of. We are calling it "world_bank_dataset".
-
-Then we are going to make our first table. We are going to call this "gdp_table". All configuration code will be found in the bigquerey.tf file here: [bigquerey.tf](terraform/bigquerey.tf)
+All configuration code will be found in the bigquerey.tf file here: [bigquerey.tf](terraform/bigquerey.tf)
 
 ## Data Base Transformation ##
 
