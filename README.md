@@ -220,7 +220,7 @@ For our visualization tool, we are going to be using Looker Studio.
 
 This is because 1) it is free, and 2) it is a GCP product that integrates easily.
 
-For specific instructions on setup. Click [here](visualization/)
+For setup instructions click [here](visualization/)
 
 
 
