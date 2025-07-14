@@ -194,7 +194,7 @@ Then we are going to make our first table. We are going to call this "gdp_table"
 
 ## Data Base Transformation ##
 
-For specific setup instructions click [here](terraform/). 
+For specific setup instructions click [here](dbt/). 
 
 Now that we have our data in Google Big Querey, we will need to do some basic table joins for the sake of our projects. For this, we will use DBT Cloud. DBT Cloud has a free forever policy for developers if you are using only one seat. This is perfectly accetable for us.
 
