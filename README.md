@@ -12,7 +12,7 @@
 - [Scritps - DAGs](#DAGs)
 - [Transform](#transform)
 - [Data Warehouse](#data-warehouse)
-- [Data Base Transformation](#data-base-transformation)
+- [Data Base Transformation - DBT](#data-base-transformation)
 - [Visualization: Looker Studio](#visualization-looker-studio)
 
 ## Overview ##
@@ -192,7 +192,7 @@ It should be noted that we are setting this up in Terraform. First we must setup
 
 Then we are going to make our first table. We are going to call this "gdp_table". All configuration code will be found in the bigquerey.tf file here: [bigquerey.tf](terraform/bigquerey.tf)
 
-## Data Base Transformation ##
+## Data Base Transformation - DBT ##
 
 For setup instructions click [here](dbt/). 
 
