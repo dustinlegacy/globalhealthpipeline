@@ -121,6 +121,8 @@ And BOOM. That then creates all infrastructure in GCP without needing to manuall
 
 ## Orchestration (Docker + Airflow) ##
 
+For setup instructions click [here](orchestration/)
+
 To keep orchestration costs low and maintain full control of our environment, we are using **Apache Airflow** deployed via **Docker Compose** on a lightweight **GCP VM** (Ubuntu). This avoids the higher costs of managed orchestration tools like Cloud Composer while remaining scalable and portable.
 
 We use Docker Compose to spin up a full Airflow environment with the following services:
