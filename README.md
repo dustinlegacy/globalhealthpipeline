@@ -181,8 +181,9 @@ To see the specific folder with the scripts click: [here](DAGs)
 
 For the sake of column name consistency, we are going to create a transform folder that will be run in every data pull to create consistency with column names. For best practice, we want all lower case letters with underscores beteen each word. Here is the folder [transform](transform/transformer.py)
 
-
 ## Data Warehouse ##
+
+For setup instructions click [here](datawarehouse/)
 
 Basic Outline: https://cloud.google.com/bigquery?hl=en
 
