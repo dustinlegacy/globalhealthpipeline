@@ -184,7 +184,7 @@ For the sake of column name consistency, we are going to create a transform fold
 
 ## Data Warehouse ##
 
-Basic Outlne: https://cloud.google.com/bigquery?hl=en
+Basic Outline: https://cloud.google.com/bigquery?hl=en
 
 We are going to be useing Google BigQuery for our datawarehouse as opposed to Snowflake (our standard too). This will help us stay within the GCP ecosystem and minimize costs with our starter plan. 
 
