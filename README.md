@@ -79,7 +79,7 @@ Using the link above, we are able to call a json response from the REST API and 
 
 ## Storage ##
 
-We will be using the Google Cloud Platform (GCP) for cloud storage due to our familiarity with the platform.
+We will be using the Google Cloud Platform (GCP) for cloud storage.
 
 For setup instructions click [here](storage/)
 
