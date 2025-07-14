@@ -92,7 +92,7 @@ All initial data will be put into this folder in a sub_folder titled "raw_data".
 
 We are using Terraform Cloud
 
-For specific setup instructions click [here](terraform/). 
+For setup instructions click [here](terraform/). 
 
 Terraform stores files as .tf files.
 
